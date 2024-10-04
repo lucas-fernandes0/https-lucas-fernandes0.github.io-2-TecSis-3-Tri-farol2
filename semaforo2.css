@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.semaforo{
+    width: 80px;
+    height: 220px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.luz{
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+.vermelho.active{
+    background-color: red;
+    opacity: 1;
+}
+.amarelo.active{
+    background-color: yellow;
+    opacity: 1;
+}
+.verde.active{
+    background-color: green;
+    opacity: 1;
+}
